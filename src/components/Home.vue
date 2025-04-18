@@ -27,6 +27,30 @@
           alt="מקלחון זכוכית מותאם אישית" />
       </div>
     </section>
+
+    <section id="about" class="bg-[#343D33] mt-12">
+      <div class="container flex flex-col px-6 py-16 mx-auto mt-12">
+        <div class="order-2 mt-8 lg:order-1 lg:mt-0 lg:flex lg:items-center lg:-mx-6">
+          <img class="object-cover w-full lg:w-1/2 lg:mx-6 h-72 lg:h-96 rounded-lg"
+            src="https://aldoraglass.com/wp-content/uploads/2022/04/Heavy-Glass-Shower-Enclosure.jpg"
+            alt="מקלחון זכוכית יוקרתי">
+  
+          <div class="mt-8 lg:w-1/2 lg:mx-6 lg:mt-0">
+            <h3 class="font-serif text-2xl text-white md:text-4xl lg:text-5xl">
+              פתרונות זכוכית בהתאמה אישית
+            </h3>
+  
+            <p class="mt-4 text-gray-200">
+              אנו יצרנים המתמחים בביצוע עבודות זכוכית ברמה הגבוהה ביותר, עם דגש על איכות, דיוק ועיצוב מרשים. ההתמחות שלנו
+              כוללת מקלחונים בהתאמה אישית עם עיצוב אלגנטי ועמיד שמשדר יוקרה ונוחות.
+            </p>
+          </div>
+        </div>
+  
+        <img class="order-1 object-cover lg:order-2 w-ful h-72 lg:h-96 lg:mt-12 rounded-lg"
+          src="https://hillcrest-glass.com/wp-content/uploads/2021/04/get-started-shower-project.jpg" alt="עבודות זכוכית">
+      </div>
+    </section>
   
     <section id="gallery" class="container px-6 py-16 mx-auto">
   <div class="text-center mb-16">

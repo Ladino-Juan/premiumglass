@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <!-- Header -->
@@ -110,6 +111,11 @@ export default {
     RouterView,
     RouterLink,
     AccessibilityButton
+  },
+  data() {
+    return {
+      isOpen: false
+    }
   }
 }
 </script>
