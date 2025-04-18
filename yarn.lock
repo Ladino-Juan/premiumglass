@@ -28,6 +28,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@remixicon/vue@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/@remixicon/vue/-/vue-4.6.0.tgz"
+  integrity sha512-OKDNBHM4gPbXZkYpKMu6xxLIP8LaioQQ7ipC10IfY4Wh5cmhrtA3aQIWgeCWGToRn1XoYoKAD8K95jUmE24hLQ==
+
 "@vitejs/plugin-vue@^3.0.3":
   version "3.0.3"
   resolved "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-3.0.3.tgz"
@@ -74,6 +79,11 @@
   dependencies:
     "@vue/compiler-dom" "3.2.37"
     "@vue/shared" "3.2.37"
+
+"@vue/devtools-api@^6.6.4":
+  version "6.6.4"
+  resolved "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.6.4.tgz"
+  integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
 
 "@vue/reactivity-transform@3.2.37":
   version "3.2.37"
@@ -654,7 +664,14 @@ vite@^3.0.0, vite@^3.0.7:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue@^3.2.25, vue@^3.2.37, vue@3.2.37:
+vue-router@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.npmjs.org/vue-router/-/vue-router-4.5.0.tgz"
+  integrity sha512-HDuk+PuH5monfNuY+ct49mNmkCRK4xJAV9Ts4z9UFc4rzdDnxQLyCMGGc8pKhZhHTVzfanpNwB/lwqevcBwI4w==
+  dependencies:
+    "@vue/devtools-api" "^6.6.4"
+
+vue@^3.2.0, vue@^3.2.25, vue@^3.2.37, "vue@>= 3", vue@3.2.37:
   version "3.2.37"
   resolved "https://registry.npmjs.org/vue/-/vue-3.2.37.tgz"
   integrity sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ==
